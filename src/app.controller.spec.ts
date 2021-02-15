@@ -14,9 +14,9 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController);
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+  describe('', () => {
+    it('should return "Welcome to my Movie API"', () => {
+      expect(appController.home()).toEqual('Welcome to my Movie API');
     });
   });
 });
